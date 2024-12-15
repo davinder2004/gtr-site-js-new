@@ -1,0 +1,45 @@
+
+.main-container {
+    display: flex;
+    justify-content: center;  
+}
+
+.catagory-nev-bar {
+    padding: 10px;
+    border-bottom: 2px;
+    border-bottom-color: rgb(170, 169, 169);
+    border-bottom-style: solid;
+    border-top: 2px;
+    border-top-color: rgb(170, 169, 169);
+    border-top-style: solid;
+    margin-top: 15px;
+    height: 42px;
+   width: 800px;
+}
+.nev-main {
+    height: 100%;
+}
+.nev-container {
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.versions {
+    margin: 0px auto;
+    padding: 0 20px 3px;  
+}
+.versions span {
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'nissan-light';
+    display: flex;
+}
+
+.versions:hover {
+    font-weight: bold;
+  border-bottom: solid #c3002f;
+}

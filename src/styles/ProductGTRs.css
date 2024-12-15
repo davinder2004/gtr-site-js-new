@@ -1,0 +1,76 @@
+
+.js-product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 60px 0px;
+    border-top: solid lightgray;
+    padding-top: 20px;
+}
+
+
+.gtr-container{
+
+    flex: 1 1 300px;
+    max-width: 450px;
+    display: flex;
+    font-family: 'nissan-light';
+    flex-wrap: wrap;   
+    padding: 20px;
+
+}
+
+
+.gtr-r32 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gtr-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.left-detail {
+    
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+
+}
+
+.right-button{
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+}
+
+.car-name {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-family: 'nissan-light';
+    
+}
+.engine-detail {
+    margin-top: 20px;
+}
+.engine-detail span {
+
+    font-size: 0.8rem;
+}
+
+.buy-button {
+    color: white;
+    border: none;
+    height: 42px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    border: solid #c3002f 1.8px;
+    background-color: #c3002f;
+    transition: background-color 0.15s,
+    border 0.15s;
+}
+
+.buy-button:hover {
+    background-color: rgb(25, 24, 30) ;
+    cursor: pointer;
+}
