@@ -1,16 +1,16 @@
 {
-  "homepage": "https://NINJA175.github.io/GTR-buy-site",
   "name": "gtr-site-js-new",
+  "homepage": "https://ninja175.github.io/gtr-site-js-new/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+  "scripts": { 
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

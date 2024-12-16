@@ -3,8 +3,9 @@ import NevBar from './NevbarMaindetails/NevBar.jsx'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Checkout from './Checkout.jsx'
 import Product from './Products/Product.jsx'
-import ProductGTRs from './Products/ProductGTRs.jsx'
 import GtrCategory from './GtrCategory.jsx'
+
+
 
 import Home from './Home.jsx'
 
