@@ -6,8 +6,6 @@
     border-top: solid lightgray;
     padding-top: 20px;
 }
-
-
 .gtr-container{
 
     flex: 1 1 300px;
@@ -16,9 +14,7 @@
     font-family: 'nissan-light';
     flex-wrap: wrap;   
     padding: 20px;
-
 }
-
 
 .gtr-r32 {
     display: flex;
@@ -73,4 +69,12 @@
 .buy-button:hover {
     background-color: rgb(25, 24, 30) ;
     cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .js-product-grid {
+
+        margin: 50px 20px 0px;
+    }
+
 }

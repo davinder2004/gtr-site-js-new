@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Checkout from './Checkout.jsx'
 import Product from './Products/Product.jsx'
 import GtrCategory from './GtrCategory.jsx'
+import SpecsSlide from './specs/SpecsSlide.jsx'
 
 
 
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <>
-        <BrowserRouter>
+       <BrowserRouter basename="/gtr-site-js-new">
+
           <NevBar />
             <Routes>
                 <Route path='/' element={<Home/>}/>
@@ -23,6 +25,7 @@ function App() {
                 <Route path='/product' element={<Product/>}/>
                 <Route path='/nismo' element={<GtrCategory category= "nismo"/>}/>
                 <Route path="/product/:productid" element={<Product />} />
+                <Route path='/spec' element={<SpecsSlide/>}/>
 
             </Routes>
           </BrowserRouter>

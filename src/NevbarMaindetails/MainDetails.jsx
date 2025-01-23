@@ -11,7 +11,8 @@ function MainDetails() {
         <>
             <div className="detail">
             <div className="left-section">
-                <img src="./pics/nismo.webp"></img> 
+            <img src={`${import.meta.env.BASE_URL}/pics/nismo.webp`} />
+
                 <p>
                 The best GT-R ever
                 </p>

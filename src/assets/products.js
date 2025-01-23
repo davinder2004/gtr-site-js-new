@@ -6,7 +6,7 @@ const all_products = [
     {
         id: "1",
         category: 'all',
-        image: '/pics/gtr-r32.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r32.jpg`,
         name: 'Skyline GTR R-32',
         price: 40000,
         power: '276',
@@ -20,7 +20,7 @@ const all_products = [
     {
         id: "2",
         category: 'all',
-        image: '/pics/gtr-r33.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r33.jpg`,
         name: 'Skyline GTR R-33',
         price: 50000,
         power: '280',
@@ -33,7 +33,7 @@ const all_products = [
     {
         id: "3",
         category: 'all',
-        image: '/pics/gtr-r34.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r34.jpg`,
         name: 'Skyline GTR R-34',
         price: 55000,
         power: '280',
@@ -46,7 +46,7 @@ const all_products = [
     {
         id: "4",
         category: 'all',
-        image: '/pics/gtr-r35.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r35.jpg`,
         name: 'Nissan GTR R-35',
         price: 121090,
         power: '565',
@@ -62,7 +62,7 @@ const all_products = [
     {
         id: "5",
         category: 'nismo',
-        image: '/pics/gtr-r32-nismo.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r32-nismo.jpg`,
         name: 'Nismo GT-R R-32',
         price: 45000,
         power: '330',
@@ -75,7 +75,7 @@ const all_products = [
     {
         id: "6",
         category: 'nismo',
-        image: '/pics/gtr-r33-nismo.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r33-nismo.jpg`,
         name: 'Nismo R-33 GT-R',
         price: 55000,
         power: '330',
@@ -88,7 +88,7 @@ const all_products = [
     {
         id: "7",
         category: 'nismo',
-        image: '/pics/gtr-r34-nismo.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r34-nismo.jpg`,
         name: 'Nismo R-34 GT-R',
         price: 70000,
         power: '330',
@@ -101,7 +101,7 @@ const all_products = [
     {
         id: "8",
         category: 'nismo',
-        image: '/pics/gtr-r35-nismo.jpg',
+        image: `${import.meta.env.BASE_URL}/pics/gtr-r35-nismo.jpg`,
         name: 'Nissan GTR R-35',
         price: 222885,
         power: '600',

@@ -132,18 +132,20 @@ margin-right: 10px;
 }
 
 .open-sidebar {
-
+  top: 5px;
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-
   display: none;
   background: none;
   border: none;
-
   margin-right: auto;
   cursor: pointer;
 
 
+}
+.open-sidebar span {
+  color: white;
+  font-family: 'nissan-regular';
 }
 .close-sidebar {
   display: none;
@@ -214,12 +216,14 @@ margin-right: 10px;
   }
   .gtr-logo {
 
-    margin: unset;
+    margin: 0px;
 
   }
   .cart {
-    margin-left: unset ;
+    margin-left: 0px ;
+    margin-top: 20px ;
   }
+  
   
 }
 
@@ -238,5 +242,10 @@ margin-right: 10px;
     border-bottom-color: rgb(113, 111, 111);
     background: rgba(25, 24, 30, 0.2);
     backdrop-filter: blur(10px);
+  }
+
+  .cart{
+  
+    margin-top: 0px;
   }
 }

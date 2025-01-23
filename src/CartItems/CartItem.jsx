@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { GtrContext } from '../context'
-import './CartItem.css'
+import './cartItem.css'
 
 export const CartItem = () => {
 

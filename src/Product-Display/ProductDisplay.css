@@ -84,3 +84,10 @@
         transition: all .02 linear;
     }
 }
+@media screen and (max-width: 750px) {
+    .main-display {
+
+        margin: 0 20px;
+    }
+
+}
